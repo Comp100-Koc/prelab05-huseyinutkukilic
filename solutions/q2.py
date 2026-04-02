@@ -1,4 +1,4 @@
-def remove_adjacent_duplicates(s):
+ def remove_adjacent_duplicates(s):
     while adjacent_duplicates_exist(s):
         result = ""
         for i in range(len(s)):
